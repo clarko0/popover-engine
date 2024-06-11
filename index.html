@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="/script.js"></script>
+    <script src="/popover-engine.js"></script>
     <link rel="stylesheet" href="/styles.css">
 </head>
 
@@ -14,6 +14,9 @@
         <div style="width: fit-content; height: fit-content;" tooltip="This is a tool tip">Hover
             over
             me</div>
+
+        <div style="position: absolute; top: 98vh; left: 50%;" tooltip="I should float above">I'm at the bottom</div>
+        <div style="position: absolute; top: 50vh; left: 110%; width: 20ch;" tooltip="Hello World!">I'm nearish the middle right</div>
     </div>
     <div id="popover-container">
     </div>
